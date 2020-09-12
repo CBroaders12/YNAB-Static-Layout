@@ -100,20 +100,20 @@ li {
 } */
 
 #lower-nav {
-    display: flexbox;
     color: #244564;
     height: 5.125rem;
     justify-content: space-between;
 }
 
 #lower-nav ul {
-    display: inline-block;
+    display: flexbox;
     float: right;
+    padding: 0 2rem;
 }
 
 #lower-nav a {
     font-size: 18px;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .main-content h1 {
