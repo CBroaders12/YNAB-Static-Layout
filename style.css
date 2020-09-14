@@ -38,6 +38,8 @@ p {
     padding: 0;
     margin: 0;
     border: 0;
+    position: fixed;
+    z-index: 10;
 }
 
 nav {
@@ -90,6 +92,11 @@ li {
     padding: 0.625rem 1.375rem;
 }
 
+#upper-nav a {
+    display: inline-block;
+    height: 100%;
+}
+
 .fixed-width {
     padding: 0 1.5rem;
 }
@@ -100,6 +107,7 @@ li {
 } */
 
 #lower-nav {
+    background-color: white;
     color: #244564;
     height: 5.125rem;
     justify-content: space-between;
@@ -146,6 +154,8 @@ li {
     padding-right: 8%;
     padding-top: 5rem;
     padding-bottom: 6.25rem;
+    position: relative;
+    top: 158px;
 }
 
 .flex {
