@@ -96,6 +96,9 @@ nav .green:hover,
     background-color: #d5dd81;
 }
 
+a#logo {
+    padding-right:0;
+}
 
 #upper-nav li {
     /* border-right: solid 0.25px #85C3E9; */
@@ -126,6 +129,7 @@ nav .green:hover,
 
 #lower-nav ul {
     display: flexbox;
+    flex-grow: 0;
     float: right;
     padding: 0 2rem;
 }
