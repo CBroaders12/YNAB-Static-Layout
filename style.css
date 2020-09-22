@@ -129,6 +129,7 @@ a#logo {
     color: #244564;
     height: 5.125rem;
     justify-content: space-between;
+    box-shadow: 0 6px 24px rgba(0,0,0,.12)
 }
 
 #lower-nav ul {
@@ -172,6 +173,12 @@ a#logo {
     border-radius: 5px;
 }
 
+.center h2,
+.center p {
+    text-align: center;
+    margin: 0 0 12px;
+}
+
 .wrapper {
     padding-left: 8%;
     padding-right: 8%;
@@ -213,6 +220,12 @@ img {
     font-size: 18px;
     font-weight: bold;
     color: #4495D7;
+}
+
+figure {
+    height: 100px;
+    width: 75px;
+    border: solid black thick;
 }
 
 @font-face {
